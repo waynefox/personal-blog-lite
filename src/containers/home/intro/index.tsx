@@ -21,17 +21,17 @@ type IntroProps = {};
 const SocialLinks = [
   {
     icon: <IoLogoTwitter />,
-    url: '#',
+    url: 'https://twitter.com/waynefox_',
     tooltip: 'Twitter',
   },
   {
     icon: <IoLogoGithub />,
-    url: '#',
+    url: 'https://github.com/waynefox',
     tooltip: 'Github',
   },
   {
     icon: <IoLogoLinkedin />,
-    url: '#',
+    url: 'https://www.linkedin.com/in/waynefoxdev/',
     tooltip: 'LinkedIn',
   },
 ];

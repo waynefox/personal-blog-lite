@@ -10,7 +10,7 @@ const HomePage = (props: any) => {
   return (
     <Layout>
       <SEO
-        title="Personal Blog Lite"
+        title="Wayne Fox Blog & Portfolio"
         description={data.site.siteMetadata.description}
       />
       <PersonalBlog />

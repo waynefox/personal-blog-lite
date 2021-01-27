@@ -3,9 +3,8 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Image from 'gatsby-image';
 import SocialProfile from '../../components/social-profile/social-profile';
 import {
-  IoLogoFacebook,
   IoLogoTwitter,
-  IoLogoInstagram,
+  IoLogoGithub,
   IoLogoLinkedin,
 } from 'react-icons/io';
 import {
@@ -18,24 +17,19 @@ import {
 
 const SocialLinks = [
   {
-    icon: <IoLogoFacebook />,
-    url: 'https://www.facebook.com/redqinc/',
-    tooltip: 'Facebook',
-  },
-  {
-    icon: <IoLogoInstagram />,
-    url: 'https://www.instagram.com/redqinc/',
-    tooltip: 'Instagram',
-  },
-  {
     icon: <IoLogoTwitter />,
-    url: 'https://twitter.com/redqinc',
+    url: 'https://twitter.com/waynefox_',
     tooltip: 'Twitter',
   },
   {
+    icon: <IoLogoGithub />,
+    url: 'https://github.com/waynefox',
+    tooltip: 'Github',
+  },
+  {
     icon: <IoLogoLinkedin />,
-    url: 'https://www.linkedin.com/company/redqinc/',
-    tooltip: 'Linked In',
+    url: 'https://www.linkedin.com/in/waynefoxdev/',
+    tooltip: 'LinkedIn',
   },
 ];
 
@@ -63,11 +57,9 @@ const About: React.FunctionComponent<AboutProps> = () => {
   return (
     <AboutWrapper>
       <AboutPageTitle>
-        <h2>About StoryHub</h2>
+        <h2>About Meeeeee</h2>
         <p>
-          StoryHub is a beautiful Gatsby Blog theme designed to showcase your
-          work in style. Perfect for designers, artists, photographers and
-          developers to use for their portfolio website.
+        Hey there, I'm Wayne, a father husband and as your here you probably know im a JavaScript and React JS Developer, Nice to meet you.
         </p>
       </AboutPageTitle>
 
@@ -76,18 +68,11 @@ const About: React.FunctionComponent<AboutProps> = () => {
       </AboutImage>
 
       <AboutDetails>
-        <h2>Hey there, what’s up?</h2>
+        <h2>A bit more about me</h2>
         <p>
-          RedQ Team is a creative agency specializing in building scalable,
-          high-performance web & mobile application. Our main concern is
-          creating more value into the application so that can help our
-          customers to grow their business.
-        </p>
-        <p>
-          RedQ Team is a creative agency specializing in building scalable,
-          high-performance web & mobile application. Our main concern is
-          creating more value into the application so that can help our
-          customers to grow their business.
+          This should be a paragraph about me and you can find me in
+          <br/>
+          src  containers  about  index.tsx
         </p>
 
         <SocialProfiles>
