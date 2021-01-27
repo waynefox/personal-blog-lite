@@ -1,6 +1,7 @@
 ---
 title: Clipboard Website
 date: '2020-10-12'
+description: This is a frontendmentor.io design build by myself using HTML and CSS
 tags: ['html', 'css', 'portfolio']
 cover: './preview.jpg'
 ---
