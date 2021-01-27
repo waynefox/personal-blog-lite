@@ -15,7 +15,7 @@ const Tags = ({ pageContext, data }: any) => {
 
       <TagPostsWrapper>
         <TagPageHeading>
-          <TagName>{tag}</TagName>
+          <TagName style={{ letterSpacing: '5px', textTransform: 'capitalize' }}>{tag}</TagName>
           {`A collection of ${totalCount} post`}
         </TagPageHeading>
         {edges.map(({ node, index }: any) => (

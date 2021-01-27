@@ -1,7 +1,7 @@
 ---
 title: This could be another section
 date: '2019-05-25'
-tags: ['react', 'code', 'markdown']
+tags: ['react', 'code', 'markdown', 'blog']
 cover: './preview.jpg'
 ---
 

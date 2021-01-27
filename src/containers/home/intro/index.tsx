@@ -10,25 +10,15 @@ import {
   IntroInfo,
 } from './style';
 import {
-  IoLogoFacebook,
   IoLogoTwitter,
-  IoLogoInstagram,
   IoLogoGithub,
+  IoLogoLinkedin,
+  
 } from 'react-icons/io';
 
 type IntroProps = {};
 
 const SocialLinks = [
-  {
-    icon: <IoLogoFacebook />,
-    url: '#',
-    tooltip: 'Facebook',
-  },
-  {
-    icon: <IoLogoInstagram />,
-    url: '#',
-    tooltip: 'Instagram',
-  },
   {
     icon: <IoLogoTwitter />,
     url: '#',
@@ -38,6 +28,11 @@ const SocialLinks = [
     icon: <IoLogoGithub />,
     url: '#',
     tooltip: 'Github',
+  },
+  {
+    icon: <IoLogoLinkedin />,
+    url: '#',
+    tooltip: 'LinkedIn',
   },
 ];
 

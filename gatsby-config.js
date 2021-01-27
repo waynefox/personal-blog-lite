@@ -4,12 +4,11 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `StoryHub`,
-    author: `David`,
-    about: `Breakfast procuring no end happiness allowance assurance frank. Met simplicity nor difficulty unreserved who. Entreaties mr conviction dissimilar me
-    astonished estimating cultivated.`,
-    description: `A Gatsby Blog`,
-    siteUrl: `https://storyhub-minimal-tarex.redq.now.sh`,
+    title: `Wayne Fox`,
+    author: `Wayne`,
+    about: `I'm Wayne Fox 👋👋👋 a Passionate Developer building things with JavaScript and ReactJS, father husband`,
+    description: `Blog & Portfolio`,
+    siteUrl: `https://waynefox.co`,
   },
   plugins: [
     {
@@ -81,7 +80,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,//`ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-51867228-5`,
       },
     },
     {

@@ -30,12 +30,12 @@ const MenuItems = [
     url: '/about',
   },
   {
-    label: 'Contact',
-    url: '/contact',
+    label: 'Portfolio',
+    url: '/tags/portfolio',
   },
   {
-    label: '404 Page',
-    url: '/404',
+    label: 'Blog',
+    url: '/tags/blog',
   },
 ];
 
