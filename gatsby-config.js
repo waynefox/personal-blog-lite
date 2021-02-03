@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Wayne Fox`,
     author: `Wayne`,
-    about: `I'm Wayne Fox 👋👋👋 a Passionate Developer building things with JavaScript and ReactJS, father husband`,
+    about: `I'm Wayne Fox 👋👋👋 a Passionate JavaScript Developer building a strong foundation for a successful Developer career.`,
     description: `Blog & Portfolio`,
     siteUrl: `https://waynefox.co`,
   },
