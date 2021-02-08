@@ -6,7 +6,7 @@ tags: ['html', 'css', 'portfolio']
 cover: './preview.jpg'
 ---
 
-# This is the Heading
+# Clipboard
 
 Buit using HTML and CSS, the design is a frontendmentor project that i have built out using mobile first development.
 
