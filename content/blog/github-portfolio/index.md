@@ -3,7 +3,7 @@ title: Github Portfolio
 date: '2021-02-09'
 description: A simple React based Github Portfolio page using the Github Api
 tags: ['ReactJS', 'Styled-Components', 'portfolio', 'Github Api']
-cover: './github.portfolio.jpg'
+cover: './github-portfolio.png'
 ---
 
 # Github Portfolio
