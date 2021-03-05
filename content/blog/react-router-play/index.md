@@ -8,7 +8,7 @@ cover: './preview.png'
 
 # React Router Playground
 
-I wanted to learn a bit more about how the react-rtouter-dom works for a simple navigation on a website. its a clean and simple nav with a image loading to confirm page change.
+I wanted to learn a bit more about how the react-router-dom works for a simple navigation on a website. its a clean and simple nav with a image loading to confirm page change.
 
 
 ## Github
